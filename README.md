@@ -6,4 +6,7 @@ Each algorithm and data structure will have its own separate README with related
 
 *Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production.*
 
-![Bubble Sort](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+
+## Algorithms
+- [Binary Search Algorithm](https://github.com/ayirtman/algorithms/tree/main/Binary%20Search)
+- [Bubble Sort Algorithm](https://github.com/ayirtman/algorithms/tree/main/Bubble%20Sort%20Algorithm)
