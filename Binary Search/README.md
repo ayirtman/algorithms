@@ -10,3 +10,7 @@ In computer science, binary search, also known as half-interval search, logarith
 ## Example
 ![Binary Search](https://i.pinimg.com/originals/e2/9a/31/e29a31c78bcc0d07c612adc77acc09a0.gif)
 
+## References
+- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+- [Penjee](https://blog.penjee.com/binary-vs-linear-search-animated-gifs/)
+
