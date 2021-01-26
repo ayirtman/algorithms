@@ -15,6 +15,7 @@ Each algorithm and data structure will have its own separate README with related
 - [Find Closest Value in BST](https://github.com/ayirtman/algorithms/tree/main/Find%20Closest%20Value%20in%20BST)
 - [Find Target Sum](https://github.com/ayirtman/algorithms/tree/main/Find%20Target%20Sum)
 - [Find Three Largest Sums](https://github.com/ayirtman/algorithms/tree/main/Find%20Three%20Largest%20Sums)
+- [First Duplicate Value](https://github.com/ayirtman/algorithms/tree/main/First%20Duplicate%20Value)
 - [Insertion Sort Algorithm](https://github.com/ayirtman/algorithms/tree/main/Insertion%20Sort%20Algorithm)
 - [Minimum Waiting Time](https://github.com/ayirtman/algorithms/tree/main/Minimum%20Waiting%20Time)
 - [Monotonic Array](https://github.com/ayirtman/algorithms/tree/main/Monotonic%20Array)
