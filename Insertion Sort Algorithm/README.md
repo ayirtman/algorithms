@@ -1,16 +1,23 @@
 ## Problem
 
-In computer science, binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array.
+Insertion sort iterates, consuming one input element each repetition, and grows a sorted output list. At each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain.
+
+Sorting is typically done in-place, by iterating up the array, growing the sorted list behind it. At each array-position, it checks the value there against the largest value in the sorted list (which happens to be next to it, in the previous array-position checked). If larger, it leaves the element in place and moves to the next. If smaller, it finds the correct position within the sorted list, shifts all the larger values up to make a space, and inserts into that correct position.
+
+The resulting array after k iterations has the property where the first k + 1 entries are sorted ("+1" because the first entry is skipped). In each iteration the first remaining entry of the input is removed, and inserted into the result at the correct position, thus extending the result:
 
 
 ## Complexity Analysis
-#### Space Complexity: O(n).
-- Binary search requires three pointers to elements, which may be array indices or pointers to memory locations, regardless of the size of the array. Therefore, the space complexity of binary search is O(n) in the word RAM model of computation.
+#### Best: 
+- O(n) time | O(1) space - where n is the length of the input array
+#### Average: 
+- O(n^2) time | O(1) space - where n is the length of the input array
+#### Worst: 
+- O(n^2) time | O(1) space - where n is the length of the input array
 
 ## Example
-![Binary Search](https://i.pinimg.com/originals/e2/9a/31/e29a31c78bcc0d07c612adc77acc09a0.gif)
+![Insertion Algorithn](https://upload.wikimedia.org/wikipedia/commons/4/42/Insertion_sort.gif)
 
 ## References
-- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm)
-- [Penjee](https://blog.penjee.com/binary-vs-linear-search-animated-gifs/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
 
